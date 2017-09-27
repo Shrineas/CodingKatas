@@ -6,9 +6,9 @@ import java.util.List;
 
 public class Anagrams {
 	public static List<String> of(String s) {
-		if (s.equals("")) {
-			return new ArrayList<>();
-		}
+//		if (s.equals("")) {
+//			return new ArrayList<>();
+//		}
 		return new ArrayList<>(Arrays.asList(s));
 	}
 }

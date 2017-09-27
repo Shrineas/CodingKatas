@@ -13,7 +13,7 @@ public class AnagramsTest {
 
 	@Test
 	public void noCharacters() throws Exception {
-		List<String> emptyListOfString = new ArrayList<>();
+		List<String> emptyListOfString = new ArrayList<>(Arrays.asList(""));
 		assertThat(Anagrams.of(""), equalTo(emptyListOfString));
 	}
 
